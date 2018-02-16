@@ -1,37 +1,41 @@
 {
-    "name": "dynamics-crm-xrm",
-    "version": "1.0.9",
-    "description": "Pure SOAP module that allows to invoke Microsoft Dynamics CRM Online services",
-    "author": "Kidozen <support@kidozen.com>",
-    "main": "index.js",
-    "repository":{
-            "type": "git",
-            "url": "https://github.com/pradeep-mishra/node-dynamicscrm-api.git"
-    },
-    "keywords": ["dynamics", "crm", "Microsoft"],
-    "license": "MIT",
-    "dependencies": {
-        "cookie": "0.1.0",
-        "mem-cache": "0.0.4",
-        "node-uuid": "1.4.0",
-        "path": "0.4.9",
-        "request": "2.44.0",
-        "simple-errors": "0.0.5",
-        "traverse": "0.6.5",
-        "xml2js": "0.4.4",
-        "xmldom": "0.1.19",
-        "xpath": "0.0.6",
-        "agentkeepalive": "0.1.5",
-        "httpntlm": "1.3.0",
-        "kido-connector": "^1.1.1"
-    },
-    "devDependencies": {
-        "mocha": "1.11.0",
-        "assert": "0.4.9",
-        "nock": "0.18.2",
-        "mockuire": "0.0.4"
-    },
-    "directories": {
-        "test": "test"
-    }
+  "name": "dynamics-crm-xrm",
+  "version": "1.0.9",
+  "description": "Pure SOAP module that allows to invoke Microsoft Dynamics CRM Online services",
+  "author": "Kidozen <support@kidozen.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradeep-mishra/node-dynamicscrm-api.git"
+  },
+  "keywords": [
+    "dynamics",
+    "crm",
+    "Microsoft"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "0.1.0",
+    "mem-cache": "0.0.4",
+    "node-uuid": "1.4.0",
+    "path": "0.4.9",
+    "request": "2.82.0",
+    "simple-errors": "0.0.5",
+    "traverse": "0.6.5",
+    "xml2js": "0.4.4",
+    "xmldom": "0.1.19",
+    "xpath": "0.0.6",
+    "agentkeepalive": "0.1.5",
+    "httpntlm": "1.3.0",
+    "kido-connector": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "1.11.0",
+    "assert": "0.4.9",
+    "nock": "0.18.2",
+    "mockuire": "0.0.4"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
