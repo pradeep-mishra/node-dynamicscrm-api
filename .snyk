@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - kido-connector > request > mime:
+        patched: '2018-06-26T05:48:08.422Z'
+    - kido-connector > request > form-data > mime:
+        patched: '2018-06-26T05:48:08.422Z'
+    - kido-connector > winston > request > mime:
+        patched: '2018-06-26T05:48:08.422Z'
+    - kido-connector > winston > request > form-data > mime:
+        patched: '2018-06-26T05:48:08.422Z'
