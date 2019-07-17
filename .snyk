@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - kido-connector > request > hawk:
+        patched: '2019-07-17T08:16:38.966Z'
+  'npm:http-signature:20150122':
+    - kido-connector > request > http-signature:
+        patched: '2019-07-17T08:16:38.966Z'
+  'npm:mime:20170907':
+    - kido-connector > request > mime:
+        patched: '2019-07-17T08:16:38.966Z'
+    - kido-connector > request > form-data > mime:
+        patched: '2019-07-17T08:16:38.966Z'
+    - kido-connector > winston > request > mime:
+        patched: '2019-07-17T08:16:38.966Z'
+    - kido-connector > winston > request > form-data > mime:
+        patched: '2019-07-17T08:16:38.966Z'
+  'npm:moment:20160126':
+    - kido-connector > moment:
+        patched: '2019-07-17T08:16:38.966Z'
+  'npm:qs:20140806-1':
+    - kido-connector > request > qs:
+        patched: '2019-07-17T08:16:38.966Z'
+    - kido-connector > winston > request > qs:
+        patched: '2019-07-17T08:16:38.966Z'
+  'npm:request:20160119':
+    - kido-connector > request:
+        patched: '2019-07-17T08:16:38.966Z'
+    - kido-connector > winston > request:
+        patched: '2019-07-17T08:16:38.966Z'
